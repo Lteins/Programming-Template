@@ -102,7 +102,7 @@ public:
         }
         return flow;
     }
-    void prll_graph() {
+    void print_graph() {
         for(size_t i=0; i<(ll)e.size(); ++i) {
             printf("from: %d to : %d flow : %d cap : %d\n", e[i].a, e[i].b, e[i].flow, e[i].cap);
         }
